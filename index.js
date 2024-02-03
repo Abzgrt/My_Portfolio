@@ -35,3 +35,15 @@ function setActiveStyle(color){
         dayNight.querySelector("i").classList.add("fa-moon");
     }
   });
+var activeLink = null;
+
+function setActiveLink(event, link) {
+  if (activeLink) {
+    activeLink.classList.remove('active');
+  }
+  
+  link.classList.add('active');
+  activeLink = link;
+  
+  event.preventDefault();
+}

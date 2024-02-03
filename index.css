@@ -123,7 +123,7 @@ ul{
     left: 0;
     top: 0;
     padding: 30px;
-    height: 100%;
+    height: 100vh;
     border-right: 1px solid var( --bg-black-50);
     display: flex;
     justify-content: center;
@@ -131,28 +131,38 @@ ul{
     z-index: 10;
     opacity: 1;
 }
+
 .aside .logo{
-    padding: 13px 0;
+    display: block;
     position: absolute;
     top: 50px;
     font-size: 30px;
     text-transform: capitalize;
 }
-.aside .logo a{
-    color: var(--text-black-900);
+/* .aside .logo .img{
+    margin: auto -10px 10px auto;
+   
+} */
+.aside .logo a img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    /* color: var(--text-black-900);
     font-weight: 700;
-    padding:  18px 20px;
+    padding:  10px 10px;
     padding-top: 15px;
     font-size: 30px;
     letter-spacing: 5px;
-    position: relative;
+    position: relative; */
     
 }
-.aside .logo a span{
+.aside .logo .span{
+    margin-top: -10px;
     font-family: 'Clicker script', cursive;
-    font-size: 40px;
+    font-size: 25px;
 }
-.aside .logo a::before{
+ .aside .logo::before{
     content: '';
     position: absolute;
     width: 20px;
@@ -160,9 +170,30 @@ ul{
     border-bottom: 5px solid var(--skin-color);
     border-left: 5px solid var(--skin-color);
     bottom: 0;
-    left: 0;
+    left: -20px;
 }
-.aside .logo a::after{
+/* .aside .logo .img::before{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-top: 5px solid var(--skin-color);
+    border-left: 5px solid var(--skin-color);
+    top: 0;
+    left: -20px;
+} */
+/* .aside .logo .img::after{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-bottom: 5px solid var(--skin-color);
+    border-right: 5px solid var(--skin-color);
+    top: -80px;
+    right: -20px;
+} */
+
+.aside .logo ::after{
     content: '';
     position: absolute;
     width: 20px;
@@ -170,8 +201,9 @@ ul{
     border-top: 5px solid var(--skin-color);
     border-right: 5px solid var(--skin-color);
     top: 0;
-    right: 0;
-}
+    right: -20px;
+} 
+
 .aside .nav-toggler{
     width: 45px;
     height: 40px;
@@ -212,7 +244,13 @@ ul{
     left: 0;
 }
 .aside .nav{
-    margin-top: 50px;
+    margin-top: 80px;
+}
+.aside .menu-button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer
 }
 .aside .nav li{
     margin-bottom: 20px;
@@ -226,7 +264,7 @@ ul{
     color: var(--text-black-900);
     padding: 5px 15px;
 }
-.aside .nav li a.active{
+.aside .nav li a.active,.aside .nav li a:hover{
     color: var(--skin-color);
 }
 .aside .nav li a i{
@@ -619,6 +657,7 @@ h3.my-profession{
 .contact .contact-form .btn{
     height: 50px;
     padding: 0 15px;
+    cursor: pointer
 }
 
 
