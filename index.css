@@ -435,9 +435,11 @@ h3.my-profession{
     font-weight: 400;
     line-height: 40px;
  }
+ 
  .about .about-content .education, .about .about-content .exprience{
     flex: 0 0 50%;
     max-width: 50%;
+    flex-basis: 50%;
  }
  
  .about .about-content h3.title{
