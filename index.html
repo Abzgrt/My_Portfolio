@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>project</title>
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="color-1.css">
     <link rel="stylesheet" href="color-2.css">
@@ -35,7 +35,7 @@
            <div class="logo d-block">
               <div class="img">
                 <a href="#" class="d-flex">
-                  <img src="image/A.jpg" alt="Abdisha">
+                  <img src="images/A.jpg" alt="Abdisha">
                 </a>
               </div>
               <div class="span"><span>Abdisha</span></div>
@@ -43,10 +43,10 @@
            <div class="nav-toggler">
            </div>
            <ul class="nav">
-                <li><a href="#home" onclick="setActiveLink(event, this)"><i class="fa fa-home"></i>Home</a></li>
+                <li><a href="#home" onclick="setActiveLink(event, this)"><i class="fa fa-home active"></i>Home</a></li>
                 <li><a href="#about" onclick="setActiveLink(event, this)"><i class="fa fa-user"></i>About</a></li>
                 <li><a href="#service" onclick="setActiveLink(event, this)"><i class="fa fa-list"></i>Services</a></li>
-                <li><a href="#portfolio" onclick="setActiveLink(event, this)"><i class="fa fa-briefcase"></i>Portfolio</a></li>
+                <li><a href="#projects" onclick="setActiveLink(event, this)"><i class="fa fa-briefcase"></i>Projects</a></li>
                 <li><a href="#contact" onclick="setActiveLink(event, this)"><i class="fa fa-comments"></i>Contact</a></li>
            </ul>
         </div>
@@ -55,13 +55,13 @@
             <div class="container">
               <div class="row">
                 <div class="home-info padding-15">
-                  <h3 class="hello">Hello, my name is <span class="name">Abdi Bekele</span></h3>
-                  <h3 class="my-profession">I'm a <span class="typing">web designer</span></h3>
-                  <p>I'm a beginner web developer and I'm working hard with full commitment to become a professional web developer within a short time. </p>
+                  <h3 class="hello">Hey, my name is <span class="name">Abdi Bekele</span></h3>
+                  <h3 class="my-profession">I'm a <span class="typing">Full Stack Web Developer</span></h3>
+                  <p> I'm a passionate and dedicated MERN stack developer with demonstrated commitment to delivering high quality, efficient and scalable products. </p>
                   <a href="#contact" class="btn hire-me">More about me</a>
                 </div>
                 <div class="home-img padding-15">
-                    <img src="image/A.jpg" alt="">
+                    <img src="images/A.jpg" alt="">
                 </div>
               </div>
             </div>
@@ -77,8 +77,13 @@
                   <div class="about-content padd-15">
                     <div class="row">
                       <div class="about-text padd-15">
-                        <h3>I'm Abdi Bekele and <span>Web Developer</span></h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti officiis dignissimos asperiores possimus corporis temporibus tenetur vitae deleniti reprehenderit nam iure officia, harum voluptates consectetur inventore modi deserunt. Debitis, tempore.</p>
+                        <h3>I'm a committed full stack developer, currently studying computer science at Addis Ababa University.
+                          I have a strong interest in software development and enjoy working with HTML, CSS, JS, React and
+                          back-end development technologies like Node.js and PHP.</h3>
+                        <p>I am always excited to take on new challenges and collaborate on interesting projects. 
+                           If you have any inquiries or would like to discuss potential opportunities, 
+                           please feel free to reach out to me through the contact information I provided below.
+                        </p>
                       </div>
                     </div>
                     <div class="row">
@@ -91,60 +96,85 @@
                               <p>Address : <span>Addis Ababa</span></p>
                             </div>
                             <div class="info-item padd-15">
-                              <p>Degree : <span>Senior CS Student</span></p>
+                              <p>Degree : <span>Senior CS Student at AAU</span></p>
                             </div>
                             <div class="info-item padd-15">
-                              <p>Phone : <span>+251 915948189</span></p>
+                              <p>Phone : <span>+251915948189</span></p>
                             </div>
                           </div>
                           <div class="row">
                             <div class="buttons padd-15">
                               <a href="MYCV.pdf" class="btn download-cv" download>Download CV</a>
-                              <a href="#Contact" class="btn hire-me">Hire Me</a>
+                              <a href="#contact" class="btn hire-me">Hire Me</a>
                             </div>
                           </div>
                          </div>
                         <div class="skills padd-15">
+                          <h3>My Top Skills</h3>
                           <div class="row">
                             <div class="skill-item padd-15">
                               <h5>HTML</h5>
                               <div class="progress">
-                                <div class="progress-in" style="width: 70%"></div>
-                                <div class="skill-percent">40%</div>
+                                <div class="progress-in" style="width: 90%"></div>
+                                <div class="skill-percent">90%</div>
                               </div>
                             </div>
                             <div class="skill-item padd-15">
-                                <h5>CSS</h5>
-                                <div class="progress">
-                                  <div class="progress-in" style="width: 60%">
-                                  </div>
-                                  <div class="skill-percent">30%</div>
+                              <h5>CSS</h5>
+                              <div class="progress">
+                                <div class="progress-in" style="width: 85%">
                                 </div>
+                                <div class="skill-percent">85%</div>
+                              </div>
                             </div>
                             <div class="skill-item padd-15">
-                                <h5>JS</h5>
-                                <div class="progress">
-                                  <div class="progress-in" style="width: 50%">
-                                  </div>
-                                  <div class="skill-percent">30%</div>
+                              <h5>JS</h5>
+                              <div class="progress">
+                                <div class="progress-in" style="width: 80%">
                                 </div>
+                                <div class="skill-percent">80%</div>
+                              </div>
                             </div> 
                             <div class="skill-item padd-15">
-                                <h5>PHP</h5>
-                                <div class="progress">
-                                  <div class="progress-in" style="width: 30%">
-                                  </div>
-                                  <div class="skill-percent">10%</div>
+                              <h5>React</h5>
+                              <div class="progress">
+                                <div class="progress-in" style="width: 75%">
                                 </div>
+                                <div class="skill-percent">75%</div>
+                              </div>
+                            </div>
+                            <div class="skill-item padd-15">
+                              <h5>Node JS</h5>
+                              <div class="progress">
+                                <div class="progress-in" style="width: 80%">
+                                </div>
+                                <div class="skill-percent">80%</div>
+                              </div>
                             </div>
                             <div class="skill-item padd-15">
                               <h5>Bootstrap</h5>
                               <div class="progress">
-                                <div class="progress-in" style="width: 20%">
+                                <div class="progress-in" style="width: 60%">
                                 </div>
-                                <div class="skill-percent">0%</div>
+                                <div class="skill-percent">60%</div>
                               </div>
-                          </div>
+                            </div>
+                            <div class="skill-item padd-15">
+                              <h5>MongoDB</h5>
+                              <div class="progress">
+                                <div class="progress-in" style="width: 70%">
+                                </div>
+                                <div class="skill-percent">70%</div>
+                              </div>
+                            </div>
+                            <div class="skill-item padd-15">
+                              <h5>MySQL</h5>
+                              <div class="progress">
+                                <div class="progress-in" style="width: 60%">
+                                </div>
+                                <div class="skill-percent">60%</div>
+                              </div>
+                            </div>
                           </div>
                         </div>
                     </div>
@@ -155,31 +185,16 @@
                             <div class="timeline-box padd-15">
                                 <div class="timeline shadow-dark">
                                     <div class="timeline-item">
-                                        <div class="circle-dot"></div>
-                                        <h3 class="timeline-date">
-                                          <i class="fa fa-calendar"></i>2013 - 2015  
-                                        </h3>
-                                        <h4 class="timeline-title">Bachelor of Science, Computer Science
-                                          Addis Ababa University, Addis Ababa, Ethiopia
-                                          Year of Graduation: 2024</h4>
-                                        <p class="timeline-text"></p>
-                                    </div>
-                                    <div class="timeline-item">
-                                        <div class="circle-dot"></div>
-                                        <h3 class="timeline-date">
-                                          <i class="fa fa-calendar"></i>2013 - 2015  
-                                        </h3>
-                                        <h4 class="timeline-title">Undergraduate in Computer Science</h4>
-                                        <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem fugiat accusantium quo, repudiandae eius, labore perferendis quos doloremque aperiam a praesentium laboriosam laborum velit suscipit tempore inventore quas debitis sint.</p>
-                                    </div>
-                                    <div class="timeline-item">
-                                        <div class="circle-dot"></div>
-                                        <h3 class="timeline-date">
-                                          <i class="fa fa-calendar"></i>2013 - 2015  
-                                        </h3>
-                                        <h4 class="timeline-title">Undergraduate in Computer Science</h4>
-                                        <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem fugiat accusantium quo, repudiandae eius, labore perferendis quos doloremque aperiam a praesentium laboriosam laborum velit suscipit tempore inventore quas debitis sint.</p>
-                                    </div>
+                                      <div class="circle-dot"></div>
+                                      <h3 class="timeline-date">
+                                        <i class="fa fa-calendar"></i>2021 - 2024 
+                                      </h3>
+                                      <h4 class="timeline-title">Bachelor of Science in Computer Science at
+                                        Addis Ababa University </br>
+                                        Year of Graduation: 2024</h4>
+                                      <p class="timeline-text"></p>
+                                      <div class="second-circle-dot"></div>
+                                      </div>   
                                 </div>
                             </div>
                           </div>
@@ -192,27 +207,14 @@
                                     <div class="timeline-item">
                                         <div class="circle-dot"></div>
                                         <h3 class="timeline-date">
-                                          <i class="fa fa-calendar"></i>2013 - 2015  
+                                          <i class="fa fa-calendar"></i>2022 - 2024  
                                         </h3>
-                                        <h4 class="timeline-title">Undergraduate in Computer Science</h4>
-                                        <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem fugiat accusantium quo, repudiandae eius, labore perferendis quos doloremque aperiam a praesentium laboriosam laborum velit suscipit tempore inventore quas debitis sint.</p>
-                                    </div>
-                                    <div class="timeline-item">
-                                        <div class="circle-dot"></div>
-                                        <h3 class="timeline-date">
-                                          <i class="fa fa-calendar"></i>2013 - 2015  
-                                        </h3>
-                                        <h4 class="timeline-title">Undergraduate in Computer Science</h4>
-                                        <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem fugiat accusantium quo, repudiandae eius, labore perferendis quos doloremque aperiam a praesentium laboriosam laborum velit suscipit tempore inventore quas debitis sint.</p>
-                                    </div>
-                                    <div class="timeline-item">
-                                        <div class="circle-dot"></div>
-                                        <h3 class="timeline-date">
-                                          <i class="fa fa-calendar"></i>2013 - 2015  
-                                        </h3>
-                                        <h4 class="timeline-title">Undergraduate in Computer Science</h4>
-                                        <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem fugiat accusantium quo, repudiandae eius, labore perferendis quos doloremque aperiam a praesentium laboriosam laborum velit suscipit tempore inventore quas debitis sint.</p>
-                                    </div>
+                                        <h4 class="timeline-title">Self-taught developer with a strong passion for coding and problem-solving with 2+ years of experience in frontend development</h4>
+                                        <p class="timeline-text">Dedicated to constantly expanding my knowledge and skills in programming languages such as JavaScript, React, Nodejs and others.
+                                           Completed several personal projects, including a web-based task management application and a full functional e-commerce website. 
+                                           Proven ability to learn quickly and work individually and collaboratively in a team environment as well. 
+                                           Eager to contribute to a dynamic development team and continue to grow as a developer.</p>
+                                    </div>   
                                 </div>
                             </div>
                           </div>
@@ -233,111 +235,104 @@
                     <div class="service-item padd-15">
                       <div class="service-item-inner">
                         <div class="icon">
-                          <i class="fa fa-mobile-alt"></i>
+                          <i class="fas fa-globe fas-icons"></i>
                         </div>
-                        <h4>Web Design</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro sit nobis voluptate.</p>
+                        <h4>Web Development</h4>
+                        <p>I can build dynamic and responsive websites using front-end technologies like HTML, CSS, and JavaScript, combined with back-end technologies like Node.js or PHP</p>
                       </div>
                     </div>
                     <div class="service-item padd-15">
                       <div class="service-item-inner">
                         <div class="icon">
-                          <i class="fa fa-laptop-code"></i>
+                          <i class="fas fa-cogs fas-icons"></i>
                         </div>
-                        <h4>Web Design</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro sit nobis voluptate.</p>
+                        <h4>API Development</h4>
+                        <p>I can design and create Application Programming Interfaces (APIs) that allow different software systems to communicate with each other.</p>
                       </div>
                     </div>
                     <div class="service-item padd-15">
                       <div class="service-item-inner">
                         <div class="icon">
-                         <i class="fa fa-palette"></i>
+                          <i class="fas fa-mobile-alt fas-icons"></i>
                         </div>
-                        <h4>Web Design</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro sit nobis voluptate.</p>
+                        <h4>Responsive Design</h4>
+                        <p>I can ensure that websites or web applications are optimized for different devices and screen sizes, using techniques like responsive design or mobile-specific development.</p>
                       </div>
                     </div>
                     <div class="service-item padd-15">
                       <div class="service-item-inner">
                         <div class="icon">
-                         <i class="fa fa-code"></i>
+                          <i class="fab fa-github fas-icons"></i>
                         </div>
-                        <h4>Web Design</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro sit nobis voluptate.</p>
+                        <h4>Version Control</h4>
+                        <p>I am proficient in using version control systems like Git, allowing for collaborative development and easy tracking of code changes.</p>
                       </div>
                     </div>
                     <div class="service-item padd-15">
                       <div class="service-item-inner">
                         <div class="icon">
-                         <i class="fa fa-search"></i>
+                          <i class="fas fa-tachometer-alt fas-icons"></i>
                         </div>
-                        <h4>Web Design</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro sit nobis voluptate.</p>
-                      </div>
-                    </div>
-                    <div class="service-item padd-15">
-                      <div class="service-item-inner">
-                        <div class="icon">
-                         <i class="fa fa-bullhorn"></i>
-                        </div>
-                        <h4>Web Design</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro sit nobis voluptate.</p>
+                        <h4>Performance Optimization</h4>
+                        <p>I can optimize the performance of websites or web applications by analyzing and improving factors such as page load times, database queries, and caching strategies.
+
+                        </p>
                       </div>
                     </div>
                 </div>
             </div>
           </section>
-          <section class="portfolio section" id="portfolio">
+          <section class="project section" id="projects">
             <div class="container">
               <div class="row abt">
                 <div class="section-title padd-15">
-                  <h2>Portfolio</h2>
+                  <h2>Projects</h2>
                 </div>
               </div>
               <div class="row">
-                <div class="portfolio-heading padd-15">
+                <div class="project-heading padd-15">
                   <h2>My Last Simple Projects :</h2>
                 </div>
               </div>
               <div class="row">
-                <div class="portfolio-item padd-15">
-                  <div class="portfolio-item-inner shadow-dark">
-                    <div class="portfolio-img">
+                <div class="project-item padd-15">
+                  <div class="project-item-inner shadow-dark">
+                    <div class="project-img">
+                      <a href=""><img src="image/A.jpg"></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="project-item padd-15">
+                  <div class="project-item-inner shadow-dark">
+                    <div class="project-img">
+                      <a href=""><img src="images/ML.webp"></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="project-item padd-15">
+                  <div class="project-item-inner shadow-dark">
+                    <div class="project-img">
                       <img src="image/A.jpg">
                     </div>
                   </div>
                 </div>
-                <div class="portfolio-item padd-15">
-                  <div class="portfolio-item-inner shadow-dark">
-                    <div class="portfolio-img">
+                <div class="project-item padd-15">
+                  <div class="project-item-inner shadow-dark">
+                    <div class="project-img">
                       <img src="image/A.jpg">
                     </div>
                   </div>
                 </div>
-                <div class="portfolio-item padd-15">
-                  <div class="portfolio-item-inner shadow-dark">
-                    <div class="portfolio-img">
+                <div class="project-item padd-15">
+                  <div class="project-item-inner shadow-dark">
+                    <div class="project-img">
                       <img src="image/A.jpg">
                     </div>
                   </div>
                 </div>
-                <div class="portfolio-item padd-15">
-                  <div class="portfolio-item-inner shadow-dark">
-                    <div class="portfolio-img">
-                      <img src="image/A.jpg">
-                    </div>
-                  </div>
-                </div>
-                <div class="portfolio-item padd-15">
-                  <div class="portfolio-item-inner shadow-dark">
-                    <div class="portfolio-img">
-                      <img src="image/A.jpg">
-                    </div>
-                  </div>
-                </div>
-                <div class="portfolio-item padd-15">
-                  <div class="portfolio-item-inner shadow-dark">
-                    <div class="portfolio-img">
+                <div class="project-item padd-15">
+                  <div class="project-item-inner shadow-dark">
+                    <div class="project-img">
                       <img src="image/A.jpg">
                     </div>
                   </div>
@@ -356,16 +351,18 @@
               <h4 class="contact-sub-title padd-15">I'M AT YOUR SERVICES</h4>
               <div class="row">
                 <div class="contact-info-item padd-15">
-                  <div class="icon"><i class="fa fa-phone"></i>
+                  <div class="icon">
+                    <i class="fa fa-phone"></i>
                   </div>
                   <h4>Call me on</h4>
-                  <p>+251 915 948 189</p>
+                  <p><a href="tel:+251915948189">+251 915 948 189</a></p>
                 </div>
                 <div class="contact-info-item padd-15">
-                  <div class="icon"><i class="fa fa-map-marker-alt"></i>
+                  <div class="icon">
+                    <i class="fab fa-github"></i>
                   </div>
-                  <h4>github</h4>
-                  <p>https://github.com/Abzgrt</p>
+                  <h4>Github</h4>
+                  <p><a href="https://github.com/abdisha23" target="_blank">https://github.com/abdisha23</a></p>
                 </div>
                 <div class="contact-info-item padd-15">
                   <div class="icon"><i class="fa fa-envelope"></i>
@@ -425,7 +422,7 @@
         <i class="fas fa-cog fa-skin"></i>
       </div>
       <div class="day-night s-icon">
-        <i class="fas "></i>
+        <i class="fas"></i>
       </div>
       <h4>Theme Colors</h4>
       <div class="colors">

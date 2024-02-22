@@ -47,3 +47,34 @@ function setActiveLink(event, link) {
   
   event.preventDefault();
 }
+document.addEventListener('DOMContentLoaded', function() {
+  var scrollLinks = document.querySelectorAll('.nav a');
+
+  scrollLinks.forEach(function(link) {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+
+      var target = document.querySelector(link.getAttribute('href'));
+      if (target) {
+        window.scrollTo({
+          top: target.offsetTop,
+          behavior: 'smooth'
+        });
+
+        // Remove the "active" class from all menu items
+        scrollLinks.forEach(function(otherLink) {
+          otherLink.classList.remove('active');
+        });
+
+        // Add the "active" class to the clicked menu item
+        link.classList.add('active');
+      }
+    });
+  });
+
+  // Set the "Home" link as initially active
+  var homeLink = document.querySelector('.nav a[href="#home"]');
+  if (homeLink) {
+    homeLink.classList.add('active');
+  }
+});
